@@ -11,3 +11,4 @@ exports.execute = function(req, res){
     }
   });
 };
+console.log("YAY SOME CODE RAN");
