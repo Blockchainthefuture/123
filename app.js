@@ -1,5 +1,7 @@
 var user = require('./routes/user');
 app.get('/users', user.list);
+app.get('/create', routes.create);
+app.get('/execute', routes.execute);
 var express = require('express');
 var routes = require('./routes');
 var http = require('http');
